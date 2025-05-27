@@ -1,125 +1,118 @@
-# Sales Analysis — Superstore Project
+# Análise de Vendas — Projeto Superstore
 
-## Overview
+## Visão Geral
 
-This project presents an exploratory data analysis (EDA) of the Superstore sales dataset, containing transactional data with information on sales, profits, discounts, product categories, and regions. The goal is to uncover patterns and insights that support business decision-making and optimize sales strategies.
+Este projeto apresenta uma análise exploratória dos dados de vendas da Superstore, uma empresa fictícia. A base de dados contém transações comerciais com informações sobre vendas, lucros, descontos, categorias de produtos e regiões. O objetivo é extrair padrões e gerar insights que ajudem na tomada de decisões estratégicas.
 
-## Project Structure
+## Estrutura do Projeto
 
 ```
 analise_vendas/
 │
-├── data/                  # Raw data files (.csv)
-├── images/                # Saved plots and charts (.png)
-├── notebooks/             # Jupyter notebooks with analysis (.ipynb)
-└── README.md              # Project documentation
+├── dados/                 # Arquivos de dados (.csv)
+├── imagens/               # Gráficos gerados (.png)
+├── notebooks/             # Notebooks Jupyter (.ipynb)
+└── README.md              # Documentação do projeto
 ```
 
-## Dataset
+## Conjunto de Dados
 
-The dataset used is from a fictional company, Superstore, provided as `Superstore.csv` inside the `data/` folder. It contains sales transactions with columns such as date, region, category, product, sales amount, profit, and discount.
+O arquivo utilizado, `Superstore.csv`, está localizado na pasta `dados/`. Ele inclui colunas como data, região, categoria, subcategoria, nome do produto, vendas, lucro, desconto, entre outras.
 
-## Tools and Libraries
+## Ferramentas Utilizadas
 
 - Python 3.9+
 - Jupyter Notebook
-- Pandas for data manipulation
-- Seaborn and Matplotlib for visualization
-- Git for version control
+- Pandas para manipulação de dados
+- Seaborn e Matplotlib para visualização
+- Git para controle de versão
 
-## Methodology
+## Metodologia
 
-The analysis follows these steps:
+A análise foi dividida nas seguintes etapas:
 
-1. **Data Import and Cleaning**  
-   - Loading data from CSV  
-   - Checking for missing values and data types  
-   - Data cleaning and formatting
+1. **Importação e Tratamento dos Dados**  
+   - Leitura do arquivo CSV  
+   - Verificação de valores ausentes e tipos de dados  
+   - Limpeza e formatação da base
 
-2. **Exploratory Data Analysis (EDA)**  
-   - Descriptive statistics  
-   - Sales, profit, and discount distribution analysis  
-   - Regional and category performance  
-   - Top products identification
+2. **Análise Exploratória (EDA)**  
+   - Estatísticas descritivas  
+   - Distribuição de vendas, lucros e descontos  
+   - Desempenho por região e categoria  
+   - Identificação dos produtos com maiores vendas
 
-3. **Insights and Findings**  
-   - Regions with the highest sales  
-   - Most profitable categories  
-   - Effect of discounts on profitability  
-   - Top 10 products contributing to revenue
+3. **Geração de Gráficos**  
+   Os gráficos foram salvos na pasta `imagens/` para posterior consulta e uso em apresentações.
 
-## Visualizations
+## Visualizações
 
-Below are some key charts from the analysis:
+A seguir, alguns dos principais gráficos gerados:
 
-### Sales by Category
+### Vendas por Categoria
 
-![Sales by Category](images/sales_by_category.png)  
-*This bar plot shows total sales for each product category, highlighting the dominant categories.*
+![Vendas por Categoria](imagens/vendas_por_categoria.png)  
+*Gráfico de barras que mostra o volume total de vendas por categoria.*
 
-### Top 10 Products by Sales
+### Top 10 Produtos Mais Vendidos
 
-![Top Products](images/top_10_products.png)  
-*This chart presents the top 10 best-selling products by sales volume.*
+![Top 10 Produtos](imagens/top_10_produtos.png)  
+*Visualização dos 10 produtos com maior volume de vendas.*
 
-### Regional Sales Distribution
+### Vendas por Região
 
-![Sales by Region](images/sales_by_region.png)  
-*Sales breakdown by region showing which areas generate the most revenue.*
+![Vendas por Região](imagens/vendas_por_regiao.png)  
+*Distribuição das vendas entre as regiões atendidas.*
 
-## Key Results
+## Principais Resultados
 
-- The South region leads in total sales volume, followed by the North.  
-- The Technology category is the most profitable, while Furniture leads in sales volume.  
-- Discounts negatively impact profit margins, as seen in the negative correlation between discount and profit.  
-- The top 10 products represent about 60% of total sales.
+- A **região Sul** lidera em volume total de vendas.  
+- A categoria **Tecnologia** apresenta os maiores lucros, enquanto **Móveis** lidera em volume de vendas.  
+- Descontos elevados impactam negativamente a lucratividade.  
+- Os 10 produtos mais vendidos representam aproximadamente 60% do faturamento.
 
-## How to Run the Project
+## Como Executar o Projeto
 
-To reproduce this analysis locally, follow these steps:
+Para rodar o projeto localmente:
 
-1. Clone this repository:
+1. Clone este repositório:
 
 ```bash
-git clone https://github.com/yourusername/analise_vendas.git
+git clone https://github.com/seuusuario/analise_vendas.git
 ```
 
-2. Navigate to the project directory:
+2. Acesse a pasta:
 
 ```bash
 cd analise_vendas
 ```
 
-3. (Optional) Create and activate a virtual environment:
+3. (Opcional) Crie um ambiente virtual:
 
 ```bash
 python -m venv venv
-source venv/bin/activate       # On Linux/Mac
-venv\Scripts\activate        # On Windows
+source venv/bin/activate       # Linux/Mac
+venv\Scripts\activate        # Windows
 ```
 
-4. Install dependencies:
+4. Instale as bibliotecas necessárias:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Launch Jupyter Notebook and open the analysis:
+5. Execute o Jupyter Notebook:
 
 ```bash
-jupyter notebook notebooks/01_sales_analysis_superstore.ipynb
+jupyter notebook notebooks/01_analise_superstore.ipynb
 ```
 
-6. Execute the notebook cells to reproduce analysis and regenerate plots (saved in `images/`).
-
-## Contact
-
-For questions or collaboration:
+## Contato
 
 - Diego  
-- LinkedIn: https://www.linkedin.com/in/diego-juliano-lima-figueredo-7112816a/
-- GitHub: https://github.com/diegojlfigueredo
+- LinkedIn: [https://www.linkedin.com/in/seuusuario](https://www.linkedin.com/in/seuusuario)  
+- GitHub: [https://github.com/seuusuario](https://github.com/seuusuario)
 
 ---
 
-This project is part of Diego's data analysis portfolio, demonstrating practical skills and professional presentation.
+Este projeto faz parte do portfólio de Diego, com foco em análise de dados para oportunidades profissionais na área.
