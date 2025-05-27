@@ -49,10 +49,10 @@ A análise foi dividida nas seguintes etapas:
 
 A seguir, alguns dos principais gráficos gerados:
 
-### Vendas por Categoria
+### Lucro por Categoria
 
-![Vendas por Categoria](imagens/vendas_por_categoria.png)  
-*Gráfico de barras que mostra o volume total de vendas por categoria.*
+![Vendas por Categoria](imagens/lucro_por_categoria.png)  
+*Gráfico de barras que mostra o lucro por categoria.*
 
 ### Top 10 Produtos Mais Vendidos
 
