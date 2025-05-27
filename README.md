@@ -56,7 +56,7 @@ A seguir, alguns dos principais gráficos gerados:
 
 ### Top 10 Produtos Mais Vendidos
 
-![Top 10 Produtos](imagens/top_10_produtos.png)  
+![Top 10 Produtos](imagens/top_10_produtos_mais_vendidos.png)  
 *Visualização dos 10 produtos com maior volume de vendas.*
 
 ### Vendas por Região
