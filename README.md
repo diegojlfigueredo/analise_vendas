@@ -107,12 +107,3 @@ pip install -r requirements.txt
 jupyter notebook notebooks/01_analise_superstore.ipynb
 ```
 
-## Contato
-
-- Diego  
-- LinkedIn: [https://www.linkedin.com/in/seuusuario](https://www.linkedin.com/in/seuusuario)  
-- GitHub: [https://github.com/seuusuario](https://github.com/seuusuario)
-
----
-
-Este projeto faz parte do portfólio de Diego, com foco em análise de dados para oportunidades profissionais na área.
